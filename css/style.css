@@ -1,0 +1,50 @@
+/* Adding zocial icons */
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+    }
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: #2d3c49;
+    font-weight: 300;
+    }
+
+h3 {
+    font-weight: bold;
+    }
+
+a {
+    margin-right: 10px;
+    font-weight: bold;
+    }
+
+h4 {
+    font-weight: bold;
+    }
+
+.firsthr {
+    border-color: #7d97ad;
+    border-width: 3px;
+    box-shadow: 0px 0px 1px 1px #7d97ad;
+    }
+
+.text-muted {
+    color: #7d97ad;
+    font-weight: bold;
+    }
+
+.text-thin {
+    font-weight: 100;
+    }
+
+.title-super {
+    font-size: 60px;
+    font-weight: bolder;
+    }
+
+.title-logo {
+    margin-top: 20px;
+}

@@ -1,0 +1,149 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <!--<meta http-equip="X-UA-Compatible" content="IE=edge">-->
+        <title>Portfolio</title>
+        <script type="text/javascript" src="js/jQuery.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <div class="container">
+            <header class="row">
+                <div class="col-md-6">
+                    <img class="title-logo" src="images/logo2.svg" alt="logo">
+                </div>
+                <div class="col-md-6 text-right text-uppercase">
+                    <h1 class="title-super text-thin">Milene Badoux</h1>
+                    <h4>Front-end ninja</h4>
+                </div>
+            </header>
+            <div class="row">
+                <div class="col-md-12">
+                    <hr class="firsthr">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <img class="img-responsive" src="images/main.svg" alt="Main Image with web development keywords">
+                </div>
+            </div>
+            <br>
+            <section class="row">
+                <div class="col-md-12">
+                    <h2 class="text-muted">Featured Work</h2>
+                </div>
+            </section>
+            <!-- SECTION WITH THE PROJECTS IMAGES-->
+            <section class="row text-center">
+                <!--First project-->
+                <div class="col-md-4">
+                    <picture>
+                        <source srcset="images/bat_300.jpg" type="images/jpeg">
+                        <source srcset="images/bat_300.webp" type="images/webp">
+                        <img class="img-responsive" src="images/bat_300.jpg" data-toggle="modal" data-target="#project1" alt="This is a picture of a bat for a project called Animal Trading card">
+                    </picture>
+                    <h3 class="text-uppercase">Animal Trading Card project</h3>
+                    <p>http://project1.com</p>
+                </div>
+                <!--Second project-->
+                <div class="col-md-4">
+                    <picture>
+                        <source srcset="images/mockup_300.jpg" type="images/jpeg">
+                        <source srcset="images/mockup_300.webp" type="images/webp">
+                        <img class="img-responsive" src="images/mockup_300.jpg" data-toggle="modal" data-target="#project2" alt="Mockup to article project">
+                    </picture>
+                    <h3 class="text-uppercase">Mockup to Article</h3>
+                    <p>http://project2.com</p>
+                </div>
+                <div class="col-md-4">
+                <!--third project-->
+                    <picture>
+                        <source srcset="images/Responsive_small.jpg" type="images/jpeg">
+                        <source srcset="Responsive_small.webp" type="images/webp">
+                        <img class="img-responsive" src="images/Responsive_small.jpg" data-toggle="modal" data-target="#project3" alt="This was a project about responsive design">
+                    </picture>
+                    <h3 class="text-uppercase">Responsive Design</h3>
+                    <p>http://project3.com</p>
+                </div>
+            </section>
+                <br>
+            <footer>
+                <!--TODO: Add working/adequate href-->
+                <a class="zocial-gmail" href="mailto:"> Email me</a>
+                <a class="zocial-github" href="https://github.com/"> GitHub </a>
+                <a class="zocial-instagram"> My Instagram</a>
+            </footer>
+        </div>
+
+        <!--MODALS-->
+          <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel1">Animal trading card</h4>
+                    </div>
+                    <div class="modal-body">
+                        <picture>
+                            <source srcset="images/bat_300.jpg" type="images/jpeg">
+                            <source srcset="images/bat_300.webp" type="images/webp">
+                            <img class="img-responsive" src="images/bat_300.jpg" alt="This is a picture of a bat for a project called Animal Trading card">
+                        </picture>
+                        This was my first project in this class. I learned a lot about HTML and CSS.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--MODAL2-->
+        <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel2">Mockup to article</h4>
+                    </div>
+                    <div class="modal-body">
+                    <picture>
+                        <source srcset="images/mockup_300.jpg" type="images/jpeg">
+                        <source srcset="images/mockup_300.webp" type="images/webp">
+                        <img class="img-responsive" src="images/mockup_300.jpg" alt="Mockup to article project">
+                    </picture>
+                        This was my second project in this class. I learned a lot about HTML and CSS.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--MODAL3-->
+        <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel3">Responsive design</h4>
+                    </div>
+                    <div class="modal-body">
+                        <picture>
+                            <source srcset="images/Responsive_small.jpg" type="images/jpeg">
+                            <source srcset="Responsive_small.webp" type="images/webp">
+                            <img class="img-responsive center-block" src="images/Responsive_small.jpg" alt="This was a project about responsive design">
+                        </picture>
+                        This was my third project in this class. I learned a lot about Responsive design.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
