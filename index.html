@@ -1,149 +1,177 @@
 <!DOCTYPE HTML>
 
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <!--<meta http-equip="X-UA-Compatible" content="IE=edge">-->
-        <title>Portfolio</title>
-        <script type="text/javascript" src="js/jQuery.js"></script>
-        <script type="text/javascript" src="js/bootstrap.min.js"></script>
-        <link rel="stylesheet" href="css/bootstrap.css">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/responsive.css">
-        <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    </head>
-    <body>
-        <div class="container">
-            <header class="row ">
-                <div class="col-md-6">
-                    <img class="title-logo" src="images/logo2.svg" alt="logo">
-                </div>
-                <div class="col-md-6 text-right text-uppercase">
-                    <h1 class="title-super text-thin">Milene Badoux</h1>
-                    <h4>Front-end ninja</h4>
-                </div>
-            </header>
-            <div class="row">
-                <div class="col-md-12">
-                    <hr class="firsthr">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <!--<img class="img-responsive" src="images/main.svg" alt="Main Image with web development keywords">-->
-                </div>
-            </div>
-            <br>
-            <section class="row">
-                <div class="col-md-12">
-                    <h2 class="text-muted">Featured Work</h2>
-                </div>
-            </section>
-            <!-- SECTION WITH THE PROJECTS IMAGES-->
-            <section class="row text-center">
-                <!--First project-->
-                <div class="col-md-4">
-                    <picture>
-                        <source srcset="images/game.jpg" type="images/jpeg">
-                        <source srcset="images/game.webp" type="images/webp">
-                        <img class="img-responsive" src="images/game.jpg" data-toggle="modal" data-target="#project1" alt="This is a screenshot of the webpage project called Arcade Game Clone">
-                    </picture>
-                    <h3 class="text-uppercase">Classic Arcade Game Clone Project</h3>
-                    <p>https://github.com/Milbad/arcade-game</p>
-                </div>
-                <!--Second project-->
-                <div class="col-md-4">
-                    <picture>
-                        <source srcset="images/readable.jpg" type="images/jpeg">
-                        <source srcset="images/readable.webp" type="images/webp">
-                        <img class="img-responsive" src="images/readable.jpg" data-toggle="modal" data-target="#project2" alt="This a screenshot of the Readable project">
-                    </picture>
-                    <h3 class="text-uppercase">Readable</h3>
-                    <p>https://github.com/Milbad/readable</p>
-                </div>
-                <div class="col-md-4">
-                <!--third project-->
-                    <picture>
-                        <source srcset="images/my-reads.jpg" type="images/jpeg">
-                        <source srcset="my-reads.webp" type="images/webp">
-                        <img class="img-responsive" src="images/my-reads.jpg" data-toggle="modal" data-target="#project3" alt="This is a screenshot of the My Reads project">
-                    </picture>
-                    <h3 class="text-uppercase">My Reads</h3>
-                    <p>https://github.com/Milbad/MyReads</p>
-                </div>
-            </section>
-                <br>
-            <footer>
-                <!--TODO: Add working/adequate href-->
-                <a class="zocial-gmail" href="mailto:"> Email me</a>
-                <a class="zocial-github" href="https://github.com/MilBad"> GitHub </a>
-                <a class="zocial-linkedin" href="https://www.linkedin.com/in/milenebadoux/"> LinkedIn</a>
-            </footer>
+
+<head>
+  <meta charset="utf-8">
+  <!--<meta http-equip="X-UA-Compatible" content="IE=edge">-->
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+  <div class="container">
+    <header class="row ">
+      <div class="col-md-6">
+        <img class="title-logo" src="images/logo2.svg" alt="logo">
+      </div>
+      <div class="col-md-6 text-right text-uppercase">
+        <h1 class="title-super text-thin">Milene Badoux</h1>
+        <h4>Front-end ninja</h4>
+      </div>
+    </header>
+    <div class="row">
+      <div class="col-md-12">
+        <hr class="firsthr">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <!--<img class="img-responsive" src="images/main.svg" alt="Main Image with web development keywords">-->
+      </div>
+    </div>
+    <br>
+    <section class="row">
+      <div class="col-md-12">
+        <h2 class="text-muted">Featured Work</h2>
+      </div>
+    </section>
+    <!-- SECTION WITH THE PROJECTS IMAGES-->
+    <section class="row text-center">
+      <!--First project-->
+      <div class="col-md-4">
+        <div class="cards">
+          <picture>
+            <source srcset="images/game.jpg" type="images/jpeg">
+            <source srcset="images/game.webp" type="images/webp">
+            <img class="card-img-top" src="images/game.jpg" data-toggle="modal" data-target="#project1" alt="This is a screenshot of the webpage project called Arcade Game Clone">
+          </picture>
+          <div class="card-body">
+            <h3 class="text-uppercase card-title">Classic Arcade Game Clone Project</h3>
+            <p class="card-text">https://github.com/Milbad/arcade-game</p>
+          </div>
         </div>
 
-        <!--MODALS-->
-          <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h4 class="modal-title" id="myModalLabel1">Classic Arcade Game Clone Project</h4>
-                    </div>
-                    <div class="modal-body">
-                        <picture>
-                            <source srcset="images/game.jpg" type="images/jpeg">
-                            <source srcset="images/game.webp" type="images/webp">
-                            <img class="img-responsive" src="images/game.jpg" alt="This is a screenshot of the webpage project called Arcade Game Clone">
-                        </picture>
-                        Sixth project from the Front-End Web Developer Nanodegree in Udacity: recreated the classic arcade game Frogger with Object-Oriented JavaScript and HTML5 Canvas.
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                    </div>
-                </div>
-            </div>
+
+      </div>
+      <!--Second project-->
+      <div class="col-md-4">
+        <div class="cards">
+          <picture>
+            <source srcset="images/readable.jpg" type="images/jpeg">
+            <source srcset="images/readable.webp" type="images/webp">
+            <img class="card-img-top" src="images/readable.jpg" data-toggle="modal" data-target="#project2" alt="This a screenshot of the Readable project">
+          </picture>
+          <div class="card-body">
+            <h3 class="text-uppercase card-title">Readable</h3>
+            <p class="card-text">https://github.com/Milbad/readable</p>
+          </div>
         </div>
-        <!--MODAL2-->
-        <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h4 class="modal-title" id="myModalLabel2">Readable</h4>
-                    </div>
-                    <div class="modal-body">
-                    <picture>
-                        <source srcset="images/readable.jpg" type="images/jpeg">
-                        <source srcset="images/readable.webp" type="images/webp">
-                        <img class="img-responsive" src="images/readable.jpg" alt="This a screenshot of the Readable project">
-                    </picture>
-                        In the Readable project, I created an app where the users are able to post content to predefined categories, comment on their posts and other users' posts, and vote on posts and comments. Users are also able to edit and delete posts and comments. This is the project for the final assessment project for Udacity's React and Redux course.
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                    </div>
-                </div>
-            </div>
+      </div>
+      <!--third project-->
+      <div class="col-md-4">
+
+        <div class="cards">
+          <picture>
+            <source srcset="images/my-reads.jpg" type="images/jpeg">
+            <source srcset="my-reads.webp" type="images/webp">
+            <img class="card-img-top" src="images/my-reads.jpg" data-toggle="modal" data-target="#project3" alt="This is a screenshot of the My Reads project">
+          </picture>
+          <div class="card-body">
+            <h3 class="text-uppercase card-title">My Reads</h3>
+            <p class="card-text">https://github.com/Milbad/MyReads</p>
+          </div>
         </div>
-        <!--MODAL3-->
-        <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h4 class="modal-title" id="myModalLabel3">My Reads</h4>
-                    </div>
-                    <div class="modal-body">
-                        <picture>
-                            <source srcset="images/my-reads.jpg" type="images/jpeg">
-                            <source srcset="my-reads.webp" type="images/webp">
-                            <img class="img-responsive center-block" src="images/my-reads.jpg" alt="TThis is a screenshot of the My Reads project">
-                        </picture>
-                        In the MyReads project, I created a bookshelf app that allows you to select and categorize books you have read, are currently reading, or want to read. This is the project for the final assessment project for Udacity's React Fundamentals course, developed by React Training.
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                    </div>
-                </div>
-            </div>
+      </div>
+  </div>
+  </section>
+  <br>
+  <footer>
+    <!--TODO: Add working/adequate href-->
+    <a class="zocial-gmail" href="mailto:"> Email me</a>
+    <a class="zocial-github" href="https://github.com/MilBad"> GitHub </a>
+    <a class="zocial-linkedin" href="https://www.linkedin.com/in/milenebadoux/"> LinkedIn</a>
+  </footer>
+  </div>
+
+  <!--MODALS-->
+  <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel1">Classic Arcade Game Clone Project</h4>
         </div>
-    </body>
+        <div class="cards">
+          <picture>
+            <source srcset="images/game.jpg" type="images/jpeg">
+            <source srcset="images/game.webp" type="images/webp">
+            <img class="card-img-top" src="images/game.jpg" alt="This is a screenshot of the webpage project called Arcade Game Clone">
+          </picture>
+          <div class="card-body">
+            <p class="card-text">Sixth project from the Front-End Web Developer Nanodegree in Udacity: recreated the classic arcade game Frogger with Object-Oriented JavaScript and HTML5 Canvas.</p>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--MODAL2-->
+  <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel2">Readable</h4>
+        </div>
+        <div class="cards">
+          <picture>
+            <source srcset="images/readable.jpg" type="images/jpeg">
+            <source srcset="images/readable.webp" type="images/webp">
+            <img class="card-img-top" src="images/readable.jpg" alt="This a screenshot of the Readable project">
+          </picture>
+          <div class="card-body">
+            <p class="card-text">In the Readable project, I created an app where the users are able to post content to predefined categories, comment on their posts and other users' posts, and vote on posts and comments. Users are also able to edit and delete posts and comments.
+              This is the project for the final assessment project for Udacity's React and Redux course.</p>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--MODAL3-->
+  <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel3">My Reads</h4>
+        </div>
+        <div class="cards">
+          <picture>
+            <source srcset="images/my-reads.jpg" type="images/jpeg">
+            <source srcset="my-reads.webp" type="images/webp">
+            <img class="card-img-top" src="images/my-reads.jpg" alt="TThis is a screenshot of the My Reads project">
+          </picture>
+          <div class="card-body">
+            <p class="card-text">In the MyReads project, I created a bookshelf app that allows you to select and categorize books you have read, are currently reading, or want to read. This is the project for the final assessment project for Udacity's React Fundamentals course,
+              developed by React Training.</p>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+</body>
+
 </html>
